@@ -1,2 +1,2 @@
 # few-shot-mamba
-Our code will be published soon!!!
+Our README will be published soon!!!
