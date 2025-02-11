@@ -1,0 +1,27 @@
+
+ipykernel                6.29.5
+MarkupSafe               2.0.1
+matplotlib               3.10.0
+matplotlib-inline        0.1.7
+numba                    0.60.0
+numpy                    2.0.2
+pip                      22.0.2
+platformdirs             4.3.6
+pooch                    1.8.2
+prompt_toolkit           3.0.48
+scikit-learn             1.6.0
+scipy                    1.14.1
+seaborn                  0.13.2
+threadpoolctl            3.5.0
+torch                    2.1.2
+tornado                  6.4.2
+tqdm                     4.67.1
+triton                   2.1.0
+argparse                 1.4.0
+os                       0.1.0
+time                     0.1.0
+sys                      0.1.0
+random                   0.1.0
+logging                  0.1.0
+
+
