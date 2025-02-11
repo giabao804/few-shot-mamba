@@ -25,6 +25,13 @@ git clone https://github.com/giabao804/few-shot-mamba.git
 cd few-shot-mamba
 ```
 
+### Data
+- You can install data for your experiments via command
+```
+gdown 1VZ5GbFPZV1lfkkyHpGtIiTuql4vYoyX3
+unzip CWRU.zip
+```
+
 ### Training
 ```bash
 chmod +x train.sh
