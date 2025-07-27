@@ -101,14 +101,6 @@ bash test.sh 1
 bash test.sh 5
 ```
 
-## 📈 Results
-
-Our SC-MambaFew model demonstrates superior performance in few-shot bearing fault diagnosis:
-
-- 🎯 **High Accuracy**: Achieves excellent classification performance with minimal training data
-- ⚡ **Fast Convergence**: Quick adaptation to new fault types
-- 🔄 **Robust Performance**: Consistent results across different experimental settings
-
 ## 📞 Contact
 
 We welcome questions, suggestions, and collaborations!
