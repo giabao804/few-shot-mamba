@@ -11,25 +11,9 @@
 
 </div>
 
-## 📋 Table of Contents
-- [🎯 Overview](#-overview)
-- [🏗️ Methodology](#️-methodology)
-- [🌍 Environment Setup](#-environment-setup)
-- [📊 Dataset](#-dataset)
-- [🚀 Getting Started](#-getting-started)
-- [📈 Results](#-results)
-- [📞 Contact](#-contact)
-- [📚 Citation](#-citation)
-
 ## 🎯 Overview
 
 This repository contains the official implementation of **SC-MambaFew**, a novel few-shot learning approach that combines Mamba architecture with selective spatial-channel attention mechanisms for bearing fault diagnosis. Our method achieves state-of-the-art performance with minimal training data.
-
-### ✨ Key Features
-- 🔍 **Few-shot Learning**: Effective diagnosis with limited labeled samples
-- 🧠 **Mamba Architecture**: Leverages selective state space models
-- 🎯 **Attention Mechanism**: Selective spatial-channel attention for feature enhancement
-- ⚡ **High Performance**: Superior accuracy on bearing fault classification
 
 ## 🏗️ Methodology
 
@@ -66,7 +50,7 @@ We evaluate our model on two benchmark datasets:
 | Dataset | Description | Download Link |
 |---------|-------------|---------------|
 | 🏭 **CWRU** | Case Western Reserve University Bearing Data | [Download](https://engineering.case.edu/bearingdatacenter) |
-| 🎓 **HUST** | Huazhong University of Science and Technology | Coming Soon |
+| 🎓 **HUST** | Hanoi University of Science and Technology | Coming Soon |
 
 ## 🚀 Getting Started
 
