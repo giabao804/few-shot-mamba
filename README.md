@@ -1,5 +1,4 @@
-# 🔧 SC-MambaFew: Few-shot Learning for Bearing Fault Diagnosis
-
+# SC-MambaFew: Few-shot learning based on Mamba and selective spatial-channel attention for bearing fault diagnosis
 <div align="center">
 
 [![Paper](https://img.shields.io/badge/Paper-Computers%20&%20Electrical%20Engineering-blue)](https://doi.org/10.1016/j.compeleceng.2024.110004)
@@ -7,29 +6,23 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/giabao804/few-shot-mamba?style=social)](https://github.com/giabao804/few-shot-mamba)
 
-*Few-shot learning based on Mamba and selective spatial-channel attention for bearing fault diagnosis*
-
 </div>
 
-## 🎯 Overview
+## Overview
 
 This repository contains the official implementation of **SC-MambaFew**, a novel few-shot learning approach that combines Mamba architecture with selective spatial-channel attention mechanisms for bearing fault diagnosis. Our method achieves state-of-the-art performance with minimal training data.
 
-## 🏗️ Methodology
+## Methodology
 
 <div align="center">
   <img src="images/model_revise-1.png" alt="SC-MambaFew Architecture" width="800"/>
   <p><em>Figure 1: SC-MambaFew model architecture</em></p>
 </div>
 
-## 🌍 Environment Setup
+## Environment Setup
 
-### 📋 Prerequisites
-- Python 3.10.12
-- CUDA-compatible GPU (recommended)
-- Anaconda/Miniconda
 
-### 🔧 Installation
+### Installation
 
 1. **Create and activate conda environment:**
 ```bash
@@ -43,31 +36,31 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## 📊 Dataset
+## Dataset
 
 We evaluate our model on two benchmark datasets:
 
 | Dataset | Description | Download Link |
 |---------|-------------|---------------|
-| 🏭 **CWRU** | Case Western Reserve University Bearing Data | [Download](https://engineering.case.edu/bearingdatacenter) |
-| 🎓 **HUST** | Hanoi University of Science and Technology | Coming Soon |
+|  **CWRU** | Case Western Reserve University Bearing Data | [Download](https://engineering.case.edu/bearingdatacenter) |
+|  **HUST** | Hanoi University of Science and Technology | Coming Soon |
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1️⃣ Clone Repository
+### Clone Repository
 ```bash
 git clone https://github.com/giabao804/few-shot-mamba.git
 cd few-shot-mamba
 ```
 
-### 2️⃣ Prepare Data
+###  Prepare Data
 Download and extract the CWRU dataset:
 ```bash
 gdown 1VZ5GbFPZV1lfkkyHpGtIiTuql4vYoyX3
 unzip CWRU.zip
 ```
 
-### 3️⃣ Training
+### Training
 
 Make training script executable:
 ```bash
@@ -84,7 +77,7 @@ bash train.sh 1
 bash train.sh 5
 ```
 
-### 4️⃣ Testing
+### Testing
 
 Make testing script executable:
 ```bash
@@ -101,15 +94,13 @@ bash test.sh 1
 bash test.sh 5
 ```
 
-## 📞 Contact
+## Contact
 
 We welcome questions, suggestions, and collaborations!
 
-- 📧 **Primary Contact**: [bao.tg212698@sis.hust.edu.vn](mailto:bao.tg212698@sis.hust.edu.vn)
-- 📧 **Alternative**: [giabaotruong.work@gmail.com](mailto:giabaotruong.work@gmail.com)
-- 🐛 **Issues**: Please report bugs via [GitHub Issues](https://github.com/giabao804/few-shot-mamba/issues)
+-  **Contact**: [giabaotruong.work@gmail.com](mailto:giabaotruong.work@gmail.com)
 
-## 📚 Citation
+## Citation
 
 If you find this work helpful, please give us a ⭐ and cite our paper:
 
